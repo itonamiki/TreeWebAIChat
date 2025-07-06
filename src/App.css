@@ -1,0 +1,14 @@
+/* リサイザブルパネルのスタイル */
+.tree-panel {
+  resize: horizontal;
+  overflow: auto;
+  min-width: 300px;
+  max-width: 70%;
+  width: 40%;
+}
+
+/* リサイズハンドルのカスタマイズ（Webkit系ブラウザ） */
+.tree-panel::-webkit-resizer {
+  background-color: #e5e7eb;
+  border-radius: 2px;
+}
